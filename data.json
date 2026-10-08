@@ -1,4 +1,4 @@
-{"updated":1791441786077,"groups":[
+{"updated":1791441867551,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -27,7 +27,7 @@
   {"id":"d436aaa0nfv9mc","name":"Соловйова Анастасія","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0yar0g1","name":"Соловйова Олександра","score":0,"picks":0,"log":[]},
   {"id":"d436aaa01xc7jl","name":"Степанов Денис","score":0,"picks":0,"log":[]},
-  {"id":"d436aaa0ufldrf","name":"Тітієвський Владислав","score":0,"picks":0,"log":[]},
+  {"id":"d436aaa0ufldrf","name":"Тітієвський Владислав","score":1,"picks":0,"log":[{"d":1,"t":1791441865051}]},
   {"id":"d436aaa0czf6bq","name":"Чучупалова Вероніка","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0rxafq7","name":"Штода Дмитро","score":0,"picks":0,"log":[]}
 ]},
