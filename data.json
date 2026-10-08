@@ -1,4 +1,4 @@
-{"updated":1791441994664,"groups":[
+{"updated":1791442002810,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -12,7 +12,7 @@
   {"id":"d436aaa0v5h5ul","name":"Коноваленко Артем","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0dm5vp2","name":"Король Дмитро","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0g3fvoo","name":"Космик Андрій","score":0,"picks":0,"log":[]},
-  {"id":"d436aaa0t5o9hh","name":"Кріпак Кирило","score":0,"picks":0,"log":[]},
+  {"id":"d436aaa0t5o9hh","name":"Кріпак Кирило","score":1,"picks":0,"log":[{"d":1,"t":1791442000300}]},
   {"id":"d436aaa0ckrj77","name":"Куліков Артем","score":0,"picks":0,"log":[]},
   {"id":"d436aaa05rren3","name":"Лисак Артем","score":1,"picks":0,"log":[{"d":1,"t":1791441914112}]},
   {"id":"d436aaa0n6xst5","name":"Ничипоренко Дмитро","score":0,"picks":0,"log":[]},
