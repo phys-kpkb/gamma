@@ -1,7 +1,7 @@
-{"updated":0,"groups":[
+{"updated":1791440466608,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
-  {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[]},
-  {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[]},
+  {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
+  {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
   {"id":"d436aaa0vtkvj1","name":"Горовий Даніїл","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0g1y59m","name":"Євтеєв Олексій","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0w0iyal","name":"Карімжанов Данілбек","score":0,"picks":0,"log":[]},
