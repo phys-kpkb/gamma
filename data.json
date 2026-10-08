@@ -1,4 +1,4 @@
-{"updated":1791442952254,"groups":[
+{"updated":1791444642797,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791442951651}]},
@@ -313,7 +313,7 @@
   {"id":"d436aaecjp1pde","name":"Іванов Ігнат","score":0,"picks":0,"log":[]},
   {"id":"d436aaecf5nhr3","name":"Іванов Нікіта","score":0,"picks":0,"log":[]},
   {"id":"d436aaecnn7kcu","name":"Керімов Давид","score":0,"picks":0,"log":[]},
-  {"id":"d436aaecw3ahjs","name":"Ковба Дмитрій","score":0,"picks":0,"log":[]},
+  {"id":"d436aaecw3ahjs","name":"Ковба Дмитрій","score":1,"picks":0,"log":[{"d":1,"t":1791444640294}]},
   {"id":"d436aaecuglezj","name":"Корнієнко Юрій","score":1,"picks":0,"log":[{"d":1,"t":1791442608956}]},
   {"id":"d436aaechrtdiq","name":"Король Віталій","score":0,"picks":0,"log":[]},
   {"id":"d436aaed73b3di","name":"Куницький Денис","score":0,"picks":0,"log":[]},
