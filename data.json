@@ -1,4 +1,4 @@
-{"updated":1791441736160,"groups":[
+{"updated":1791441743681,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -118,7 +118,7 @@
   {"id":"d436aae5ftg2n5","name":"Олійник Денис","score":0,"picks":0,"log":[]},
   {"id":"d436aae5v8xi2x","name":"Панащенко Денис","score":0,"picks":0,"log":[]},
   {"id":"d436aae5ztpa3p","name":"Приходько Матвій","score":0,"picks":0,"log":[]},
-  {"id":"d436aae5igasa1","name":"Русанов Володимир","score":0,"picks":0,"log":[]},
+  {"id":"d436aae5igasa1","name":"Русанов Володимир","score":1,"picks":0,"log":[{"d":1,"t":1791441741175}]},
   {"id":"d436aae5d4cv44","name":"Стаценко Даніл","score":0,"picks":0,"log":[]},
   {"id":"d436aae5v2t3f9","name":"Томко Богдан","score":0,"picks":0,"log":[]},
   {"id":"d436aae5mjkewr","name":"Цокол Віталій","score":0,"picks":0,"log":[]},
