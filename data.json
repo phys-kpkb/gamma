@@ -1,4 +1,4 @@
-{"updated":1791441765414,"groups":[
+{"updated":1791441776128,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -111,7 +111,7 @@
   {"id":"d436aae5yhvuej","name":"Левицький Олексій","score":0,"picks":0,"log":[]},
   {"id":"d436aae593nyt0","name":"Лисогор Владислав","score":0,"picks":0,"log":[]},
   {"id":"d436aae57eeg6x","name":"Луцкович Михайло","score":0,"picks":0,"log":[]},
-  {"id":"d436aae5htbjn3","name":"Мельникович Неля","score":0,"picks":0,"log":[]},
+  {"id":"d436aae5htbjn3","name":"Мельникович Неля","score":1,"picks":0,"log":[{"d":1,"t":1791441773689}]},
   {"id":"d436aae5hui8fc","name":"Михальчук Григорій","score":0,"picks":0,"log":[]},
   {"id":"d436aae57ncguj","name":"Міщенко Сніжана","score":0,"picks":0,"log":[]},
   {"id":"d436aae57zzpab","name":"Новіков Євгеній","score":0,"picks":0,"log":[]},
