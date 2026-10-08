@@ -1,4 +1,4 @@
-{"updated":1791440466608,"groups":[
+{"updated":1791441736160,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -96,7 +96,7 @@
   {"id":"d436aae3ln4vq3","name":"Шендра Євген","score":0,"picks":0,"log":[]}
 ]},
 {"id":"g107","name":"107","order":4,"students":[
-  {"id":"d436aae5gag2jx","name":"Бурик Андрій","score":0,"picks":0,"log":[]},
+  {"id":"d436aae5gag2jx","name":"Бурик Андрій","score":1,"picks":0,"log":[{"d":1,"t":1791441734648}]},
   {"id":"d436aae59vj2tj","name":"Вінічук Михайло","score":0,"picks":0,"log":[]},
   {"id":"d436aae5olfv97","name":"Волошановський Данило","score":0,"picks":0,"log":[]},
   {"id":"d436aae5rz1pc1","name":"Гуревська Дарина","score":0,"picks":0,"log":[]},
