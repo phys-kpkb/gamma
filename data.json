@@ -1,4 +1,4 @@
-{"updated":1791442299802,"groups":[
+{"updated":1791442304645,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -212,7 +212,7 @@
   {"id":"d436aae8e9dmxz","name":"Стельмах Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aae8193ayl","name":"Українець Альберт","score":0,"picks":0,"log":[]},
   {"id":"d436aae8y41uwt","name":"Хоменко Валентин","score":0,"picks":0,"log":[]},
-  {"id":"d436aae8b73sm4","name":"Черняк Мішель","score":0,"picks":0,"log":[]}
+  {"id":"d436aae8b73sm4","name":"Черняк Мішель","score":1,"picks":0,"log":[{"d":1,"t":1791442302142}]}
 ]},
 {"id":"g207","name":"207","order":8,"students":[
   {"id":"d436aae94v62lb","name":"Берляк Андрій","score":0,"picks":0,"log":[]},
