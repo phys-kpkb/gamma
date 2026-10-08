@@ -1,4 +1,4 @@
-{"updated":1791442516532,"groups":[
+{"updated":1791442522302,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -253,7 +253,7 @@
   {"id":"d436aaeafwnb2x","name":"Дмитренко Кирило","score":0,"picks":0,"log":[]},
   {"id":"d436aaea56ljw5","name":"Дудар Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aaea23fvxs","name":"Євтушенко Єгор","score":0,"picks":0,"log":[]},
-  {"id":"d436aaeave1jz3","name":"Кармаліта Ілля","score":0,"picks":0,"log":[]},
+  {"id":"d436aaeave1jz3","name":"Кармаліта Ілля","score":1,"picks":0,"log":[{"d":1,"t":1791442519801}]},
   {"id":"d436aaead2kcdu","name":"Ковтун Андрій","score":0,"picks":0,"log":[]},
   {"id":"d436aaeacw4rj2","name":"Корх Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aaea2a4etp","name":"Кот Віктор","score":0,"picks":0,"log":[]},
