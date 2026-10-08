@@ -1,4 +1,4 @@
-{"updated":1791442230146,"groups":[
+{"updated":1791442264211,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -208,7 +208,7 @@
   {"id":"d436aae86c0dn6","name":"Ніколаєв Данило","score":0,"picks":0,"log":[]},
   {"id":"d436aae8zcwv8p","name":"Опанасенко Дар'я","score":0,"picks":0,"log":[]},
   {"id":"d436aae8cihm0t","name":"Семенова Тетяна","score":0,"picks":0,"log":[]},
-  {"id":"d436aae82ynm0j","name":"Соловіцький Микола","score":0,"picks":0,"log":[]},
+  {"id":"d436aae82ynm0j","name":"Соловіцький Микола","score":1,"picks":0,"log":[{"d":1,"t":1791442261705}]},
   {"id":"d436aae8e9dmxz","name":"Стельмах Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aae8193ayl","name":"Українець Альберт","score":0,"picks":0,"log":[]},
   {"id":"d436aae8y41uwt","name":"Хоменко Валентин","score":0,"picks":0,"log":[]},
