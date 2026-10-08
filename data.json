@@ -1,4 +1,4 @@
-{"updated":1791442381826,"groups":[
+{"updated":1791442394089,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -216,9 +216,9 @@
 ]},
 {"id":"g207","name":"207","order":8,"students":[
   {"id":"d436aae94v62lb","name":"Берляк Андрій","score":5,"picks":0,"log":[{"d":5,"t":1791442367519}]},
-  {"id":"d436aae9ezr4s7","name":"Бєлєнок Тимур","score":0,"picks":0,"log":[]},
-  {"id":"d436aae95qazzm","name":"Величко Владислав","score":0,"picks":0,"log":[]},
-  {"id":"d436aae94hfx56","name":"Величко Олександр","score":0,"picks":0,"log":[]},
+  {"id":"d436aae9ezr4s7","name":"Бєлєнок Тимур","score":2,"picks":0,"log":[{"d":2,"t":1791442387737}]},
+  {"id":"d436aae95qazzm","name":"Величко Владислав","score":3,"picks":0,"log":[{"d":3,"t":1791442391587}]},
+  {"id":"d436aae94hfx56","name":"Величко Олександр","score":3,"picks":0,"log":[{"d":3,"t":1791442390118}]},
   {"id":"d436aae9x6d0nn","name":"Гайструк Валерій","score":0,"picks":0,"log":[]},
   {"id":"d436aae9zppmj9","name":"Голова Анастасія","score":0,"picks":0,"log":[]},
   {"id":"d436aae9rpfkf2","name":"Давидов Олександр","score":0,"picks":0,"log":[]},
@@ -239,7 +239,7 @@
   {"id":"d436aae9ltnmyw","name":"Оришко Євгеній","score":0,"picks":0,"log":[]},
   {"id":"d436aae90q5n3g","name":"Отрощенко Денис","score":0,"picks":0,"log":[]},
   {"id":"d436aae9svaja7","name":"Петрук Ярослав","score":0,"picks":0,"log":[]},
-  {"id":"d436aae9eyr2ni","name":"Півень Софія","score":0,"picks":0,"log":[]},
+  {"id":"d436aae9eyr2ni","name":"Півень Софія","score":4,"picks":0,"log":[{"d":4,"t":1791442385042}]},
   {"id":"d436aae9bxypi2","name":"Пономаренко Станіслав","score":0,"picks":0,"log":[]},
   {"id":"d436aae96spxfo","name":"Раєць Артем","score":0,"picks":0,"log":[]},
   {"id":"d436aae93quy2s","name":"Раінчук Володимир","score":0,"picks":0,"log":[]},
