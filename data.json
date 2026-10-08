@@ -1,4 +1,4 @@
-{"updated":1791442165952,"groups":[
+{"updated":1791442170564,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -64,7 +64,7 @@
   {"id":"d436aae212jfvx","name":"Шишківський Тимофій","score":0,"picks":0,"log":[]}
 ]},
 {"id":"g104","name":"104","order":3,"students":[
-  {"id":"d436aae31cyysw","name":"Бєляк Ростислав","score":0,"picks":0,"log":[]},
+  {"id":"d436aae31cyysw","name":"Бєляк Ростислав","score":1,"picks":0,"log":[{"d":1,"t":1791442170277}]},
   {"id":"d436aae3v7jgdz","name":"Власюк Аліна","score":0,"picks":0,"log":[]},
   {"id":"d436aae3g90osh","name":"Гаврилюк Станіслав","score":0,"picks":0,"log":[]},
   {"id":"d436aae3t89u35","name":"Ганжа Григорій","score":0,"picks":0,"log":[]},
