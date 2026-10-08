@@ -1,4 +1,4 @@
-{"updated":1791442552388,"groups":[
+{"updated":1791442554959,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -296,7 +296,7 @@
   {"id":"d436aaebl4jus3","name":"Палій Діана","score":1,"picks":0,"log":[{"d":1,"t":1791442530382}]},
   {"id":"d436aaebvdqdxy","name":"Паримуд Єгор","score":0,"picks":0,"log":[]},
   {"id":"d436aaebmbg2e5","name":"Пугач Данііл","score":0,"picks":0,"log":[]},
-  {"id":"d436aaebmvwzz7","name":"Смик Дарина","score":1,"picks":0,"log":[{"d":1,"t":1791442549878}]},
+  {"id":"d436aaebmvwzz7","name":"Смик Дарина","score":2,"picks":0,"log":[{"d":2,"t":1791442552451}]},
   {"id":"d436aaebztantw","name":"Столярчук Назарій","score":0,"picks":0,"log":[]},
   {"id":"d436aaebkf9qbt","name":"Татарчук Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aaebd3vdzr","name":"Червоний Дмитро","score":2,"picks":0,"log":[{"d":2,"t":1791442534447}]},
