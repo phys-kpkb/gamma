@@ -1,4 +1,4 @@
-{"updated":1791442539241,"groups":[
+{"updated":1791442544863,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -281,10 +281,10 @@
   {"id":"d436aaebmup3oc","name":"Бондаренко Ярослав","score":0,"picks":0,"log":[]},
   {"id":"d436aaebv7l98z","name":"Гутнік Каріна","score":1,"picks":0,"log":[{"d":1,"t":1791442536737}]},
   {"id":"d436aaebc3zz4t","name":"Дігтяр Артем","score":0,"picks":0,"log":[]},
-  {"id":"d436aaeb8zb8hc","name":"Іллющенко Іван","score":0,"picks":0,"log":[]},
-  {"id":"d436aaebeuafw6","name":"Казаков Олексій","score":0,"picks":0,"log":[]},
+  {"id":"d436aaeb8zb8hc","name":"Іллющенко Іван","score":1,"picks":0,"log":[{"d":1,"t":1791442540119}]},
+  {"id":"d436aaebeuafw6","name":"Казаков Олексій","score":1,"picks":0,"log":[{"d":1,"t":1791442540750}]},
   {"id":"d436aaebtjkuy5","name":"Кверхелідзе Назар","score":0,"picks":0,"log":[]},
-  {"id":"d436aaeblpkomt","name":"Красьоха Назар","score":0,"picks":0,"log":[]},
+  {"id":"d436aaeblpkomt","name":"Красьоха Назар","score":1,"picks":0,"log":[{"d":1,"t":1791442542361}]},
   {"id":"d436aaebi22otn","name":"Критинін Вадим","score":0,"picks":0,"log":[]},
   {"id":"d436aaebez3xna","name":"Критиніна Вікторія","score":0,"picks":0,"log":[]},
   {"id":"d436aaebplatf4","name":"Кудрицький Микита","score":0,"picks":0,"log":[]},
