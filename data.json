@@ -1,4 +1,4 @@
-{"updated":1791442191654,"groups":[
+{"updated":1791442230146,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -135,8 +135,8 @@
   {"id":"d436aae631rucb","name":"Заліщук Арсеній","score":0,"picks":0,"log":[]},
   {"id":"d436aae651ssvt","name":"Ковшинець Ігнат","score":0,"picks":0,"log":[]},
   {"id":"d436aae6w1it64","name":"Кравченко Марина","score":0,"picks":0,"log":[]},
-  {"id":"d436aae6g3upa4","name":"Куриленко Павло","score":0,"picks":0,"log":[]},
-  {"id":"d436aae6va9m8j","name":"Ліновицький Максим","score":0,"picks":0,"log":[]},
+  {"id":"d436aae6g3upa4","name":"Куриленко Павло","score":1,"picks":0,"log":[{"d":1,"t":1791442226859}]},
+  {"id":"d436aae6va9m8j","name":"Ліновицький Максим","score":1,"picks":0,"log":[{"d":1,"t":1791442227641}]},
   {"id":"d436aae66ctowb","name":"Лобач Кирило","score":0,"picks":0,"log":[]},
   {"id":"d436aae650rrrx","name":"Масний Назар","score":0,"picks":0,"log":[]},
   {"id":"d436aae6m8a1gw","name":"Матвійчук Наталія","score":0,"picks":0,"log":[]},
