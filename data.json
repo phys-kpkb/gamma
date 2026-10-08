@@ -1,4 +1,4 @@
-{"updated":1791442126886,"groups":[
+{"updated":1791442154994,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -78,7 +78,7 @@
   {"id":"d436aae3pcz9xc","name":"Курочка Ярослав","score":0,"picks":0,"log":[]},
   {"id":"d436aae34hb2re","name":"Луковський Тимофій","score":0,"picks":0,"log":[]},
   {"id":"d436aae3o8msq2","name":"Мельниченко Надія","score":0,"picks":0,"log":[]},
-  {"id":"d436aae3fs2k18","name":"Михальчук Денис","score":0,"picks":0,"log":[]},
+  {"id":"d436aae3fs2k18","name":"Михальчук Денис","score":1,"picks":0,"log":[{"d":1,"t":1791442154382}]},
   {"id":"d436aae3fwwy6d","name":"Новицька Тетяна","score":0,"picks":0,"log":[]},
   {"id":"d436aae3aj59lm","name":"П`ятківський Артем","score":0,"picks":0,"log":[]},
   {"id":"d436aae3o430xp","name":"Площенюк Артем","score":0,"picks":0,"log":[]},
