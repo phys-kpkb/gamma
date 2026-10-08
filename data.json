@@ -1,4 +1,4 @@
-{"updated":1791442339546,"groups":[
+{"updated":1791442351420,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -200,7 +200,7 @@
   {"id":"d436aae8o842h1","name":"Кравченко Володимир","score":0,"picks":0,"log":[]},
   {"id":"d436aae8zjxduq","name":"Кравченко Юлія","score":0,"picks":0,"log":[]},
   {"id":"d436aae87b9spw","name":"Кучеренко Максим","score":0,"picks":0,"log":[]},
-  {"id":"d436aae8rnb17s","name":"Латаш Денис","score":0,"picks":0,"log":[]},
+  {"id":"d436aae8rnb17s","name":"Латаш Денис","score":1,"picks":0,"log":[{"d":1,"t":1791442348913}]},
   {"id":"d436aae8o28mil","name":"Ляшенко Тетяна","score":0,"picks":0,"log":[]},
   {"id":"d436aae8jup5tx","name":"Мережко Ігор","score":0,"picks":0,"log":[]},
   {"id":"d436aae8q5ot45","name":"Міхно Євгеній","score":0,"picks":0,"log":[]},
