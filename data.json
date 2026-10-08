@@ -1,4 +1,4 @@
-{"updated":1791442544863,"groups":[
+{"updated":1791442549871,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -289,9 +289,9 @@
   {"id":"d436aaebez3xna","name":"Критиніна Вікторія","score":0,"picks":0,"log":[]},
   {"id":"d436aaebplatf4","name":"Кудрицький Микита","score":0,"picks":0,"log":[]},
   {"id":"d436aaebxvo807","name":"Кучер Ілья","score":0,"picks":0,"log":[]},
-  {"id":"d436aaeb4vrqqr","name":"Лозовський Богдан","score":0,"picks":0,"log":[]},
+  {"id":"d436aaeb4vrqqr","name":"Лозовський Богдан","score":1,"picks":0,"log":[{"d":1,"t":1791442545545}]},
   {"id":"d436aaebos29qv","name":"Ляшенко Єгор","score":0,"picks":0,"log":[]},
-  {"id":"d436aaebcm2hbm","name":"Мартинчук Богдан","score":0,"picks":0,"log":[]},
+  {"id":"d436aaebcm2hbm","name":"Мартинчук Богдан","score":1,"picks":0,"log":[{"d":1,"t":1791442547358}]},
   {"id":"d436aaebji6q89","name":"Муляр Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aaebl4jus3","name":"Палій Діана","score":1,"picks":0,"log":[{"d":1,"t":1791442530382}]},
   {"id":"d436aaebvdqdxy","name":"Паримуд Єгор","score":0,"picks":0,"log":[]},
