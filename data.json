@@ -1,4 +1,4 @@
-{"updated":1791442554959,"groups":[
+{"updated":1791442568755,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -303,9 +303,9 @@
   {"id":"d436aaebkv8fvv","name":"Шакун Григорій","score":0,"picks":0,"log":[]}
 ]},
 {"id":"g307","name":"307","order":11,"students":[
-  {"id":"d436aaecrk9bih","name":"Василенко Михайло","score":0,"picks":0,"log":[]},
-  {"id":"d436aaecb3prw6","name":"Васильєв Ілля","score":0,"picks":0,"log":[]},
-  {"id":"d436aaecua6c93","name":"Вінічук Володимир","score":0,"picks":0,"log":[]},
+  {"id":"d436aaecrk9bih","name":"Василенко Михайло","score":1,"picks":0,"log":[{"d":1,"t":1791442563971}]},
+  {"id":"d436aaecb3prw6","name":"Васильєв Ілля","score":1,"picks":0,"log":[{"d":1,"t":1791442564605}]},
+  {"id":"d436aaecua6c93","name":"Вінічук Володимир","score":1,"picks":0,"log":[{"d":1,"t":1791442566245}]},
   {"id":"d436aaec2lwlx9","name":"Волосович Дмитро","score":0,"picks":0,"log":[]},
   {"id":"d436aaecrhs4bu","name":"Гриценко Владислав","score":0,"picks":0,"log":[]},
   {"id":"d436aaecxftgvg","name":"Гуща Михайло","score":0,"picks":0,"log":[]},
