@@ -1,4 +1,4 @@
-{"updated":1791442511064,"groups":[
+{"updated":1791442516532,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -271,9 +271,9 @@
   {"id":"d436aaeagu3t7h","name":"Саванчук Сергій","score":0,"picks":0,"log":[]},
   {"id":"d436aaea0v408t","name":"Сидоренко Михайло","score":0,"picks":0,"log":[]},
   {"id":"d436aaeaoilmtk","name":"Сосновський Микита","score":0,"picks":0,"log":[]},
-  {"id":"d436aaeazqifak","name":"Степанищенко Назар","score":0,"picks":0,"log":[]},
+  {"id":"d436aaeazqifak","name":"Степанищенко Назар","score":1,"picks":0,"log":[{"d":1,"t":1791442514027}]},
   {"id":"d436aaeac3p9pm","name":"Тарасова Євгенія","score":0,"picks":0,"log":[]},
-  {"id":"d436aaeaxlwaxc","name":"Чумак Максим","score":0,"picks":0,"log":[]}
+  {"id":"d436aaeaxlwaxc","name":"Чумак Максим","score":1,"picks":0,"log":[{"d":1,"t":1791442512843}]}
 ]},
 {"id":"g304","name":"304","order":10,"students":[
   {"id":"d436aaebw9t775","name":"Бернацький Роман","score":0,"picks":0,"log":[]},
