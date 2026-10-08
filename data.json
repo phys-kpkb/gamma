@@ -1,4 +1,4 @@
-{"updated":1791441900456,"groups":[
+{"updated":1791441904176,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -6,7 +6,7 @@
   {"id":"d436aaa0g1y59m","name":"Євтеєв Олексій","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0w0iyal","name":"Карімжанов Данілбек","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0dfsby5","name":"Кіндзер Георгій","score":0,"picks":0,"log":[]},
-  {"id":"d436aaa0bfsex9","name":"Клименко Олег","score":1,"picks":0,"log":[{"d":1,"t":1791441897952}]},
+  {"id":"d436aaa0bfsex9","name":"Клименко Олег","score":2,"picks":0,"log":[{"d":2,"t":1791441901664}]},
   {"id":"d436aaa0ubziwr","name":"Козир Ярослав","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0da1rlr","name":"Коломієць Владислав","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0v5h5ul","name":"Коноваленко Артем","score":0,"picks":0,"log":[]},
