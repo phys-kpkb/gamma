@@ -1,4 +1,4 @@
-{"updated":1791442274396,"groups":[
+{"updated":1791442282171,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -184,7 +184,7 @@
 ]},
 {"id":"g204","name":"204","order":7,"students":[
   {"id":"d436aae8jtg5h1","name":"Бережний Дмитро","score":0,"picks":0,"log":[]},
-  {"id":"d436aae8pdo12n","name":"Ведющенко Іван","score":0,"picks":0,"log":[]},
+  {"id":"d436aae8pdo12n","name":"Ведющенко Іван","score":2,"picks":0,"log":[{"d":2,"t":1791442279667}]},
   {"id":"d436aae8rx5675","name":"Веремійченко Назар","score":0,"picks":0,"log":[]},
   {"id":"d436aae8mq3imm","name":"Гаєвський Микита","score":0,"picks":0,"log":[]},
   {"id":"d436aae8comg52","name":"Галієв Артем","score":0,"picks":0,"log":[]},
@@ -195,7 +195,7 @@
   {"id":"d436aae8edh44v","name":"Іванченко Ілля","score":0,"picks":0,"log":[]},
   {"id":"d436aae8sax86v","name":"Ізбенко Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aae8e1zjw1","name":"Іскоростенський Микола","score":0,"picks":0,"log":[]},
-  {"id":"d436aae8p78167","name":"Калита Данат","score":0,"picks":0,"log":[]},
+  {"id":"d436aae8p78167","name":"Калита Данат","score":2,"picks":0,"log":[{"d":2,"t":1791442276829}]},
   {"id":"d436aae8uut5ut","name":"Ковальчук Тимофій","score":0,"picks":0,"log":[]},
   {"id":"d436aae8o842h1","name":"Кравченко Володимир","score":0,"picks":0,"log":[]},
   {"id":"d436aae8zjxduq","name":"Кравченко Юлія","score":0,"picks":0,"log":[]},
