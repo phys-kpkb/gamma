@@ -1,4 +1,4 @@
-{"updated":1791442370337,"groups":[
+{"updated":1791442381826,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -222,7 +222,7 @@
   {"id":"d436aae9x6d0nn","name":"Гайструк Валерій","score":0,"picks":0,"log":[]},
   {"id":"d436aae9zppmj9","name":"Голова Анастасія","score":0,"picks":0,"log":[]},
   {"id":"d436aae9rpfkf2","name":"Давидов Олександр","score":0,"picks":0,"log":[]},
-  {"id":"d436aae9raa5a9","name":"Достовалова Анастасія","score":0,"picks":0,"log":[]},
+  {"id":"d436aae9raa5a9","name":"Достовалова Анастасія","score":3,"picks":0,"log":[{"d":3,"t":1791442379321}]},
   {"id":"d436aae9dyos6w","name":"Задорожний Данило","score":0,"picks":0,"log":[]},
   {"id":"d436aae9bvela9","name":"Запольський Олександр","score":0,"picks":0,"log":[]},
   {"id":"d436aae9b18mv1","name":"Захарченко Артур","score":0,"picks":0,"log":[]},
