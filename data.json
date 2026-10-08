@@ -1,4 +1,4 @@
-{"updated":1791441904176,"groups":[
+{"updated":1791441916621,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -14,7 +14,7 @@
   {"id":"d436aaa0g3fvoo","name":"Космик Андрій","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0t5o9hh","name":"Кріпак Кирило","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0ckrj77","name":"Куліков Артем","score":0,"picks":0,"log":[]},
-  {"id":"d436aaa05rren3","name":"Лисак Артем","score":0,"picks":0,"log":[]},
+  {"id":"d436aaa05rren3","name":"Лисак Артем","score":1,"picks":0,"log":[{"d":1,"t":1791441914112}]},
   {"id":"d436aaa0n6xst5","name":"Ничипоренко Дмитро","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0yqgdj1","name":"Олексієнко Юрій","score":0,"picks":0,"log":[]},
   {"id":"d436aaa0mazswy","name":"Онищенко Артем","score":1,"picks":0,"log":[{"d":1,"t":1791441868171}]},
