@@ -1,4 +1,4 @@
-{"updated":1791441743681,"groups":[
+{"updated":1791441750195,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":0,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335}]},
@@ -106,7 +106,7 @@
   {"id":"d436aae538x2fv","name":"Колодовський Денис","score":0,"picks":0,"log":[]},
   {"id":"d436aae5xbn01n","name":"Кондюк Роман","score":0,"picks":0,"log":[]},
   {"id":"d436aae5sfb1dc","name":"Коритін Максим","score":0,"picks":0,"log":[]},
-  {"id":"d436aae541rt7e","name":"Корнетов Денис","score":0,"picks":0,"log":[]},
+  {"id":"d436aae541rt7e","name":"Корнетов Денис","score":1,"picks":0,"log":[{"d":1,"t":1791441747692}]},
   {"id":"d436aae5izzdbp","name":"Кошицький Ярослав","score":0,"picks":0,"log":[]},
   {"id":"d436aae5yhvuej","name":"Левицький Олексій","score":0,"picks":0,"log":[]},
   {"id":"d436aae593nyt0","name":"Лисогор Владислав","score":0,"picks":0,"log":[]},
