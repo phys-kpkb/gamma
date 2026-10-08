@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>Рейтинг груп</title>
+<script>
+// GitHub Pages не знає адрес на кшталт /gamma/201 — передаємо їх головній сторінці
+(function(){
+  var seg = location.pathname.split('/')[1] || '';
+  var base = location.hostname.slice(-10) === '.github.io' && seg ? '/' + seg + '/' : '/';
+  try { sessionStorage.setItem('rating.path', location.pathname + location.hash); } catch (e) {}
+  location.replace(base);
+})();
+</script>
+</head>
+<body></body>
+</html>

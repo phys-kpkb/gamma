@@ -6,6 +6,8 @@
 <title>Рейтинг груп</title>
 <meta name="theme-color" content="#000000">
 <meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script>try{if(localStorage.getItem('rating.theme')==='light')document.documentElement.setAttribute('data-theme','light')}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -326,6 +328,21 @@ textarea.field{height:auto;padding:12px 14px;resize:vertical;line-height:1.5;fon
 .owner #authBtn .i-open{display:block}
 .owner #authBtn{color:var(--gold-hi);border-color:var(--gold-lo)}
 .sheet-text a{color:var(--gold-hi)}
+
+/* хто я */
+.me-line{color:var(--text);margin-bottom:4px}
+.me-line b{color:var(--gold-hi)}
+.link{border:0;background:none;padding:0;color:var(--gold-hi);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.ro .row.me{border-color:var(--gold-lo);box-shadow:inset 0 0 0 1px var(--gold-lo)}
+.me-tag{display:none;flex:none;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:6px;background:rgba(216,176,74,.16);color:var(--gold-hi)}
+.ro .row.me .me-tag{display:inline-block}
+.pick-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:8px}
+.pick-grid button{height:56px;border-radius:12px;border:1px solid var(--line-2);background:var(--panel-2);font-family:var(--f-display);font-weight:700;font-size:18px}
+.pick-grid button:hover,.pick-list button:hover{border-color:var(--gold)}
+.pick-list{display:flex;flex-direction:column;gap:6px;max-height:min(48vh,420px);overflow:auto;margin-top:10px}
+.pick-list button{text-align:left;padding:12px 14px;border-radius:11px;border:1px solid var(--line-2);background:var(--panel-2);font-weight:650;font-size:16px}
+.pick-list .none{color:var(--muted);padding:10px 2px}
+[data-theme="light"] .pick-grid button,[data-theme="light"] .pick-list button{background:#fff;border:2px solid #555}
 .steps{color:var(--muted);font-size:14px;margin:-8px 0 16px;padding-left:20px;line-height:1.55}
 .steps b{color:var(--text)}
 
@@ -513,7 +530,11 @@ textarea.field{height:auto;padding:12px 14px;resize:vertical;line-height:1.5;fon
           </button>
         </div>
       </header>
-      <div id="banner" class="banner" hidden>Ви переглядаєте рейтинг. Натисніть на студента, щоб побачити історію балів.<span class="upd" id="upd"></span></div>
+      <div id="banner" class="banner" hidden>
+        <div class="me-line" id="meLine" hidden>Ви: <b id="meName"></b> · <button class="link" id="meChange">змінити</button></div>
+        <div>Натисніть на студента, щоб побачити історію балів.</div>
+        <span class="upd" id="upd"></span>
+      </div>
       <ol class="list" id="list"></ol>
       <div class="empty" id="empty" hidden>
         <p>У групі поки нікого. Додайте студентів — по одному або одразу списком.</p>
@@ -547,8 +568,18 @@ textarea.field{height:auto;padding:12px 14px;resize:vertical;line-height:1.5;fon
 
 /* ================= state ================= */
 const LS_KEY = 'rating.v1', LS_ACTIVE = 'rating.active', LS_TOKEN = 'rating.gh.token', LS_PENDING = 'rating.pending';
+const LS_ME = 'rating.me', LS_SKIP = 'rating.me.skip';
 // де лежать бали: репозиторій, з якого GitHub Pages віддає цю сторінку
 const GH = { owner: 'phys-kpkb', repo: 'gamma', branch: 'main', path: 'data.json' };
+
+// адреси на кшталт …/gamma/201: GitHub Pages віддає на них 404.html, а той передає шлях сюди
+const BASE = (location.pathname.match(/^.*\//) || ['/'])[0];
+(() => {
+  let p = null;
+  try { p = sessionStorage.getItem('rating.path'); sessionStorage.removeItem('rating.path'); } catch {}
+  if (p && p.startsWith(BASE)) history.replaceState(null, '', p);
+})();
+let START_GROUP = '';   // група з адреси, з якою відкрили сторінку
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $ = s => document.querySelector(s);
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
@@ -557,6 +588,8 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 let groups = [];
 let activeId = lsGet(LS_ACTIVE);
+let me = null, askedMe = false;
+try { const m = JSON.parse(lsGet(LS_ME) || 'null'); if (m && m.g && m.s) me = { g: String(m.g), s: String(m.s) }; } catch {}
 let readOnly = false;
 const store = { mode: 'local', db: null, pending: false };
 const gh = { token: null, sha: null, timer: null, saving: false, again: false, labels: [], updated: 0, poll: null, failed: false };
@@ -674,6 +707,7 @@ function applyRemote(opts){
   for (const g of groups) if (dirty.has(g.id) && !lastRemote.has(g.id)) next.push(g);
   groups = next.sort(byOrder);
   pickFromHash();
+  if (!activeGroup() && readOnly && meStudent()) activeId = me.g;
   if (!activeGroup()) activeId = groups[0] ? groups[0].id : null;
   saveLocal();
   renderAll(opts);
@@ -733,6 +767,7 @@ async function viewerPull(){
   const best = res.reduce((a, b) => (Number(b.updated) || 0) > (Number(a.updated) || 0) ? b : a);
   if (lastRemote && (Number(best.updated) || 0) <= gh.updated) { renderUpdated(); return; }
   takeRemote(best, { effects: true });
+  maybeOnboard();
 }
 
 async function ownerPull(){
@@ -931,6 +966,73 @@ async function authClick(){
   ]);
 }
 
+/* ================= хто я ================= */
+function maybeOnboard(){
+  if (store.mode !== 'view' || askedMe || !groups.length) return;
+  if (meStudent() || lsGet(LS_SKIP)) return;
+  askedMe = true;
+  whoDialog(findGroup(START_GROUP));
+}
+
+function whoDialog(pre){
+  modal((sheet, close) => {
+    let gid = pre ? pre.id : null;
+    const draw = () => {
+      const g = groups.find(x => x.id === gid);
+      if (!g) {
+        sheet.innerHTML = '<h2 class="sheet-title">Хто ви?</h2><p class="sheet-text">Виберіть свою групу</p>' +
+          '<div class="pick-grid"></div>' +
+          '<div class="sheet-actions"><button class="btn ghost" data-skip>Просто подивитись</button></div>';
+        const grid = sheet.querySelector('.pick-grid');
+        groups.forEach(x => {
+          const b = document.createElement('button');
+          b.textContent = x.name;
+          b.onclick = () => { gid = x.id; draw(); };
+          grid.appendChild(b);
+        });
+        setTimeout(() => { const f = grid.querySelector('button'); if (f) f.focus(); }, 30);
+      } else {
+        sheet.innerHTML = '<h2 class="sheet-title"></h2><p class="sheet-text">Знайдіть себе у списку</p>' +
+          '<input class="field" placeholder="Почніть вводити прізвище" autocomplete="off">' +
+          '<div class="pick-list"></div>' +
+          '<div class="sheet-actions"><button class="btn ghost" data-back>← Інша група</button><button class="btn ghost" data-skip>Просто подивитись</button></div>';
+        sheet.querySelector('h2').textContent = 'Група ' + g.name;
+        const inp = sheet.querySelector('input'), list = sheet.querySelector('.pick-list');
+        const fill = () => {
+          const q = inp.value.trim().toLocaleLowerCase('uk');
+          list.innerHTML = '';
+          const arr = [...g.students].sort((a, b) => a.name.localeCompare(b.name, 'uk'))
+            .filter(s => !q || s.name.toLocaleLowerCase('uk').includes(q));
+          if (!arr.length) { const p = document.createElement('div'); p.className = 'none'; p.textContent = 'Нікого не знайдено'; list.appendChild(p); }
+          arr.forEach(s => {
+            const b = document.createElement('button');
+            b.textContent = s.name;
+            b.onclick = () => {
+              me = { g: g.id, s: s.id };
+              lsSet(LS_ME, JSON.stringify(me));
+              try { localStorage.removeItem(LS_SKIP); } catch {}
+              activeId = g.id;
+              close();
+              renderAll();
+              window.scrollTo({ top: 0 });
+              toast('Привіт, ' + (s.name.split(' ')[1] || s.name) + '!');
+              setTimeout(() => { const r = document.querySelector('.row.me'); if (r) { r.scrollIntoView({ block: 'center', behavior: reduced ? 'auto' : 'smooth' }); burstAt(r.querySelector('.rank-num'), 14); } }, 450);
+            };
+            list.appendChild(b);
+          });
+        };
+        inp.addEventListener('input', fill);
+        inp.addEventListener('keydown', e => { if (e.key === 'Enter') { const b = list.querySelector('button'); if (b) b.click(); } });
+        fill();
+        sheet.querySelector('[data-back]').onclick = () => { gid = null; draw(); };
+        if (!matchMedia('(pointer: coarse)').matches) setTimeout(() => inp.focus(), 30);
+      }
+      sheet.querySelector('[data-skip]').onclick = () => { lsSet(LS_SKIP, '1'); close(); };
+    };
+    draw();
+  });
+}
+
 /* ================= mutations & undo ================= */
 function mutate(label, gids, fn){
   if (readOnly) return false;
@@ -1005,21 +1107,39 @@ function renderAll(opts){
   $('#banner').hidden = !readOnly;
   if (activeId) lsSet(LS_ACTIVE, activeId);
   $('#authBtn').hidden = store.mode !== 'view' && store.mode !== 'gh';
-  if (g && store.mode !== 'local' && store.mode !== 'db') {
-    const h = '#' + encodeURIComponent(g.name);
-    if (location.hash !== h) history.replaceState(null, '', h);
+  if (g && /^https?:$/.test(location.protocol) && (store.mode === 'view' || store.mode === 'gh')) {
+    const want = BASE + encodeURIComponent(g.name);
+    if (location.pathname !== want || location.hash) history.replaceState(null, '', want);
   }
+  const mine = readOnly && meStudent();
+  $('#meLine').hidden = !mine;
+  if (mine) $('#meName').textContent = mine.s.name + ' (' + mine.g.name + ')';
   renderUpdated();
   renderTabs();
   renderHeader();
   renderList(opts);
 }
 
-// посилання на конкретну групу: …/gamma/#101
+// посилання на конкретну групу: …/gamma/101 (старі …/#101 теж працюють)
+function urlName(){
+  let h = '';
+  try {
+    h = decodeURIComponent(location.pathname.slice(BASE.length)).replace(/\/+$/, '');
+    if (!h || h === 'index.html') h = decodeURIComponent(location.hash.slice(1));
+  } catch {}
+  return h;
+}
+const findGroup = h => (h && groups.find(x => x.name === h || x.id === h)) || null;
+const urlGroup = () => findGroup(urlName());
 function pickFromHash(){
-  const h = decodeURIComponent(location.hash.slice(1));
-  const g = h && groups.find(x => x.name === h || x.id === h);
+  const g = urlGroup();
   if (g) activeId = g.id;
+}
+function meStudent(){
+  if (!me) return null;
+  const g = groups.find(x => x.id === me.g);
+  const s = g && g.students.find(x => x.id === me.s);
+  return s ? { g, s } : null;
 }
 
 function renderTabs(){
@@ -1071,7 +1191,7 @@ function createRow(id){
   li.dataset.id = id;
   li.innerHTML =
     '<div class="rank">' + ICON.crown.replace('<svg', '<svg class="crown" aria-hidden="true"') + '<span class="rank-num"></span><span class="move" aria-hidden="true"></span></div>' +
-    '<div class="who"><span class="name"></span></div>' +
+    '<div class="who"><span class="name"></span><span class="me-tag">ви</span></div>' +
     '<div class="ctrl">' +
       '<button class="step minus edit-only" data-act="minus">−</button>' +
       '<output class="score"></output>' +
@@ -1088,6 +1208,7 @@ function updateRow(el, s){
   el.classList.toggle('r2', m === 2);
   el.classList.toggle('r3', m === 3);
   el.classList.toggle('zero', s.score === 0);
+  el.classList.toggle('me', !!me && s.id === me.s);
   const rn = el.querySelector('.rank-num');
   if (rn.textContent !== String(s._rank)) rn.textContent = s._rank;
   const nm = el.querySelector('.name');
@@ -1684,13 +1805,16 @@ document.addEventListener('keydown', e => {
 loadLocal();
 const onClaude = !!(window.claude && typeof window.claude.use === 'function');
 if (!onClaude) { readOnly = !lsGet(LS_TOKEN); store.mode = readOnly ? 'view' : 'gh'; }
-pickFromHash();
+START_GROUP = urlName();
+if (urlGroup()) pickFromHash();
+else if (readOnly && meStudent()) activeId = me.g;
 if (!activeGroup()) activeId = groups[0] ? groups[0].id : null;
 if (!groups.length) store.pending = true;
 renderAll();
 updateUndo();
 
 $('#authBtn').onclick = authClick;
+$('#meChange').onclick = () => whoDialog(null);
 window.addEventListener('hashchange', () => { const was = activeId; pickFromHash(); if (activeId !== was) renderAll(); });
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) { if (store.mode === 'gh' && dirty.size && !gh.saving) { clearTimeout(gh.timer); gh.timer = null; ghSave(); } return; }
