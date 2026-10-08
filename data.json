@@ -1,4 +1,4 @@
-{"updated":1791442002810,"groups":[
+{"updated":1791442070671,"groups":[
 {"id":"g101","name":"101","order":1,"students":[
   {"id":"d436aaa0nmxafi","name":"Войчик Анатолій","score":0,"picks":0,"log":[{"d":1,"t":1791440461971},{"d":-1,"t":1791440464103}]},
   {"id":"d436aaa0thvx7z","name":"Ворохоб Назар","score":1,"picks":0,"log":[{"d":1,"t":1791440461657},{"d":-1,"t":1791440463335},{"d":1,"t":1791441992162}]},
@@ -46,7 +46,7 @@
   {"id":"d436aae2vgo7bw","name":"Костенко Андрій","score":0,"picks":0,"log":[]},
   {"id":"d436aae2qysumh","name":"Крещук Михайло","score":0,"picks":0,"log":[]},
   {"id":"d436aae2491iou","name":"Кутний Ілля","score":0,"picks":0,"log":[]},
-  {"id":"d436aae20dcpb2","name":"Лихошерст Андрій","score":0,"picks":0,"log":[]},
+  {"id":"d436aae20dcpb2","name":"Лихошерст Андрій","score":1,"picks":0,"log":[{"d":1,"t":1791442070217}]},
   {"id":"d436aae2hz6q2v","name":"Любарський Денис","score":0,"picks":0,"log":[]},
   {"id":"d436aae2uj1io4","name":"Мовчан Антон","score":0,"picks":0,"log":[]},
   {"id":"d436aae2f4w0xo","name":"Ніколаєнко Артем","score":0,"picks":0,"log":[]},
